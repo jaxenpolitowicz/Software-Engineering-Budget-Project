@@ -5,82 +5,82 @@ This Budget project is a simple desktop application that helps users track expen
 --------------------------------------------------------------------------------------------------------------------------------------------------
 Features:
 
--Add expenses with category selection via dropdown menu
+- Add expenses with category selection via dropdown menu
 
--Create new custom categories anytime
+- Create new custom categories anytime
 
--Set and edit per-category budget limits
+- Set and edit per-category budget limits
 
--Two live-updating pie charts:
+- Two live-updating pie charts:
 
-  -Spending Distribution
+  - Spending Distribution
   
-  -Budget Allocation
+  - Budget Allocation
   
--Persistent data stored in budget_data.json
+- Persistent data stored in budget_data.json
 
--Automatically updates visualizations when expenses or categories change
+- Automatically updates visualizations when expenses or categories change
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **Requirements:**
 
--Python 3.10+
+- Python 3.10+
 
--Installed libraries:
+- Installed libraries:
 
-  -tkinter (usually included with Python)
+  - tkinter (usually included with Python)
   
-  -matplotlib
+  - matplotlib
   
-  -json (built-in)
+  - json (built-in)
   
 
 To run:
 
--simply run main.py with the above libraries installed
+- simply run main.py with the above libraries installed
 
--the .json file will automacially be created if one does not already exist
+- the .json file will automacially be created if one does not already exist
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 **Usage Example:**
 
 **-Add an Expense**
 
--Select a category from the dropdown
+- Select a category from the dropdown
 
--Enter a description
+- Enter a description
 
--Enter an amount
+- Enter an amount
 
--Click Add Expense
+- Click Add Expense
 
-→ The category totals update instantly
+  → The category totals update instantly
 
-→ Pie charts redraw immediately
+  → Pie charts redraw immediately
 
 
 
 **Add a New Category**
 
--Click Category Manager
+- Click Category Manager
 
--Enter name & budget limit
+- Enter name & budget limit
 
--Click Add Category
+- Click Add Category
 
-→ Category appears in dropdown
+  → Category appears in dropdown
 
-→ Budget limit visible in budget distribution chart
+  → Budget limit visible in budget distribution chart
 
 
 
 **Modify a Category Limit**
 
--Open Category Manager
+- Open Category Manager
 
--Select an existing category
+- Select an existing category
 
--Enter new limit
+- Enter new limit
 
--Click Update Limit
+- Click Update Limit
 
