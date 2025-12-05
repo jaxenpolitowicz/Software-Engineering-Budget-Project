@@ -22,7 +22,7 @@ Features:
 -Automatically updates visualizations when expenses or categories change
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-Requirements:
+**Requirements:**
 
 -Python 3.10+
 
@@ -42,9 +42,9 @@ To run:
 -the .json file will automacially be created if one does not already exist
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-Usage Example:
+**Usage Example:**
 
--Add an Expense
+**-Add an Expense**
 
 -Select a category from the dropdown
 
@@ -59,7 +59,8 @@ Usage Example:
 → Pie charts redraw immediately
 
 
-Add a New Category
+
+**Add a New Category**
 
 -Click Category Manager
 
@@ -72,7 +73,8 @@ Add a New Category
 → Budget limit visible in budget distribution chart
 
 
-Modify a Category Limit
+
+**Modify a Category Limit**
 
 -Open Category Manager
 
